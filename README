@@ -1,0 +1,7 @@
+box_filter:
+    movsum, movmean, movmin, movmax
+imguidedfilter:
+    Guided image filter: 利用numpy.linalg.inv避免了使用for循环逐像素求covariance矩阵逆. 
+    REF: He K, Sun J, Tang X. Guided image filtering[J]. IEEE transactions on pattern analysis and machine intelligence, 2013, 35(6): 1397-1409.
+kernel_basis_filter:
+    kernel basis filter tools.
